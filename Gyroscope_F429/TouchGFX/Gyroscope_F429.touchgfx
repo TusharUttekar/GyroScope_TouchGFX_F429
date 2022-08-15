@@ -1,0 +1,263 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BackGround",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_main_bg_portrait_texture_240x320px.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Graph_Background",
+            "X": 20,
+            "Y": 60,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "__designer\\Blue_Textures_squairy_light.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "X_Rotation",
+            "X": 20,
+            "Y": 60,
+            "Width": 200,
+            "Height": 200,
+            "DataSeed": 1990016028,
+            "NumberOfValues": 50,
+            "MaxY": 499999.0,
+            "MinY": -499999.0,
+            "Precision": "0.1",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 49,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 5,
+            "LabelSizeBottom": 18,
+            "LabelSizeLeft": 45,
+            "LabelSizeRight": 20,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 10,
+            "PaddingRight": -15,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "Color": {
+                  "Red": 255
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 5.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Interval": 100000.0,
+              "LineWidth": 1,
+              "Alpha": 100
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextId": "__SingleUse_3P8P",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 100000.0,
+              "DecimalSeparator": "Point",
+              "TextId": "__SingleUse_8KTI",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "Y_Rotation",
+            "X": 20,
+            "Y": 60,
+            "Width": 200,
+            "Height": 200,
+            "DataSeed": -1176734650,
+            "NumberOfValues": 50,
+            "MaxY": 300.0,
+            "MinY": -300.0,
+            "Precision": "0.1",
+            "LastIndex": 49,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 5,
+            "LabelSizeBottom": 18,
+            "LabelSizeLeft": 45,
+            "LabelSizeRight": 20,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 10,
+            "PaddingRight": -15,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "Color": {
+                  "Green": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "Z_Rotation",
+            "X": 20,
+            "Y": 60,
+            "Width": 200,
+            "Height": 200,
+            "DataSeed": -2049112626,
+            "NumberOfValues": 50,
+            "MaxY": 300.0,
+            "MinY": -300.0,
+            "Precision": "0.1",
+            "LastIndex": 49,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 5,
+            "LabelSizeBottom": 18,
+            "LabelSizeLeft": 45,
+            "LabelSizeRight": 20,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 10,
+            "PaddingRight": -15,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "Color": {
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Gyroscope_Title",
+            "X": 57,
+            "Y": 21,
+            "Width": 126,
+            "Height": 24,
+            "TextId": "__SingleUse_DPL1",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "X_Tilt",
+            "X": 20,
+            "Y": 281,
+            "Width": 54,
+            "Height": 24,
+            "TextId": "__SingleUse_7FKW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Y_Tilt",
+            "X": 94,
+            "Y": 281,
+            "Width": 53,
+            "Height": 24,
+            "TextId": "__SingleUse_LPZ2",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Z_Tilt",
+            "X": 166,
+            "Y": 281,
+            "Width": 54,
+            "Height": 24,
+            "TextId": "__SingleUse_YPEB",
+            "TextRotation": "0",
+            "Color": {
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Gyroscope_F429",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_E01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}
