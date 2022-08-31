@@ -1,6 +1,7 @@
 # GyroScope_TouchGFX_F429
 
 Description
+-----------
 
 First using the touchgfx we create the basic UI where we add the background images, Text area's and the most important part
 of our interface that is the Dynamic Graph Widget.
@@ -44,10 +45,12 @@ void StartDefaultTask(void *argument)
 }
 ```
 Output
+------
 
 ![20220815_201915](https://user-images.githubusercontent.com/104786774/184659121-385177c2-a139-4f08-a6f1-1e2507d7facf.jpg)
 
 Hardware
+--------
 
 ->STM32F429-DISC1 Development Board
 
@@ -56,12 +59,14 @@ Hardware
 ->ON Board TFT Display (SF-TC240T-9370-T)
 
 Software
+--------
 
 ->STM32Cube-IDE for Programming
 
 ->TouchGFX for Creating the GUI Interface
 
 Reference
+---------
 
 TouchGFX Dynamic Graph : https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiL7f6qjcn5AhX99zgGHX01A80QwqsBegQIBRAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dvv9TTHav-gY&usg=AOvVaw0X8roheKvXFOTbbVfGLw_Z
 
